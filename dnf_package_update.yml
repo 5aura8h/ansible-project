@@ -1,0 +1,4 @@
+- name: install package
+  dnf:
+    name: "{{ package_name }}"
+    state: latest
